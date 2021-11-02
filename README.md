@@ -1,6 +1,8 @@
 # sap-bom-sql 
 sap-bom-sql は、主にエッジアプリケーションにおいて、SAPと連携されたBOM（部品表）データを保存するSQLテーブルを作成するためのレポジトリです。  
-sap-bom-sql には、SAP BOMヘッダ と SAP BOM 明細 両方が、一つのテーブルに含まれています。
+sap-bom-sql には、SAP BOMヘッダ と SAP BOM 明細 両方が、一つのテーブルに含まれています。  
+sap-bom-sql は、そのままクラウド環境におけるアプリケーションにも、適用可能です。  
+
 
 ## sqlの設定ファイル
 sap-bom-sql には、sqlの設定ファイルとして、sap-bom-sql.sqlが含まれています。
