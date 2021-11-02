@@ -14,4 +14,4 @@ CREATE TABLE `sap-bom`
     `ItemIsDeleted`         varchar(1) DEFAULT NULL,
     PRIMARY KEY (`BillOfMaterial`),
 ) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8;
+  DEFAULT CHARSET = utf8mb4;
