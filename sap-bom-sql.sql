@@ -12,6 +12,6 @@ CREATE TABLE `sap-bom`
     `BillOfMaterialItemQuantity` float(13) DEFAULT NULL,
     `ComponentScrapInPercent` float(5) DEFAULT NULL,
     `ItemIsDeleted`         varchar(1) DEFAULT NULL,
-    PRIMARY KEY (`BillOfMaterial`, `BillOfMaterialItemNodeNumber`),
+    PRIMARY KEY (`BillOfMaterial`, `BillOfMaterialItemNodeNumber`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
