@@ -9,7 +9,9 @@ https://api.sap.com/api/OP_API_BILL_OF_MATERIAL_SRV_0002/overview
 本レポジトリ の sql設定ファイルの内容は、上記URL の API 仕様を前提としています。  
 
 ## sqlの設定ファイル
-sap-bom-sql には、sqlの設定ファイルとして、sap-bom-sql.sqlが含まれています。
+sap-bom-sql には、sqlの設定ファイルとして、sqlの設定ファイルとして以下のsqlファイルが含まれています。  
+
+* sap-bom-sql.sql（SAP 部品表）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
