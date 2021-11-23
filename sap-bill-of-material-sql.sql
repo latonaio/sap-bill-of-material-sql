@@ -1,4 +1,4 @@
-CREATE TABLE `sap-bom`
+CREATE TABLE `sap-bill-of-material`
 (
     `BillOfMaterial`        varchar(8) DEFAULT NULL,
     `Material`              varchar(40) DEFAULT NULL,
