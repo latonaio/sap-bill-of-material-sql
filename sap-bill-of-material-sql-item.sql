@@ -1,11 +1,11 @@
 CREATE TABLE `sap-bill-of-material-item`
 (
-    `BillOfMaterial`        varchar(8) DEFAULT NULL,
-    `BillOfMaterialCategory` varchar(1) DEFAULT NULL,
-    `BillOfMaterialVariant` varchar(2) DEFAULT NULL,
-    `BillOfMaterialVersion` varchar(4) DEFAULT NULL,
-    `BillOfMaterialItemNodeNumber` varchar(8) DEFAULT NULL,
-    `HeaderChangeDocument`  varchar(12) DEFAULT NULL,
+    `BillOfMaterial`        varchar(8) NOT NULL,
+    `BillOfMaterialCategory` varchar(1) NOT NULL,
+    `BillOfMaterialVariant` varchar(2) NOT NULL,
+    `BillOfMaterialVersion` varchar(4) NOT NULL,
+    `BillOfMaterialItemNodeNumber` varchar(8) NOT NULL,
+    `HeaderChangeDocument`  varchar(12) NOT NULL,
     `Material`              varchar(40) DEFAULT NULL,
     `Plant`                 varchar(4) DEFAULT NULL,
     `ValidityStartDate`     date DEFAULT NULL,
