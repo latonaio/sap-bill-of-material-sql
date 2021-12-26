@@ -1,4 +1,4 @@
-CREATE TABLE `sap-bill-of-material-item`
+CREATE TABLE `sap_bill_of_material_item`
 (
     `BillOfMaterial`        varchar(8) NOT NULL,
     `BillOfMaterialCategory` varchar(1) NOT NULL,
@@ -8,8 +8,8 @@ CREATE TABLE `sap-bill-of-material-item`
     `HeaderChangeDocument`  varchar(12) NOT NULL,
     `Material`              varchar(40) DEFAULT NULL,
     `Plant`                 varchar(4) DEFAULT NULL,
-    `ValidityStartDate`     date DEFAULT NULL,
-    `ValidityEndDate`       date DEFAULT NULL,
+    `ValidityStartDate`     varchar(80) DEFAULT NULL,
+    `ValidityEndDate`       varchar(80) DEFAULT NULL,
     `BillOfMaterialComponent` varchar(40) DEFAULT NULL,
     `ComponentDescription`  varchar(40) DEFAULT NULL,
     `BillOfMaterialItemQuantity` varchar(13) DEFAULT NULL,
