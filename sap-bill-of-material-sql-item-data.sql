@@ -16,6 +16,6 @@ CREATE TABLE `sap_bill_of_material_item_data`
     `ComponentScrapInPercent`      varchar(5) DEFAULT NULL,
     `IsDeleted`                    tinyint(1) DEFAULT NULL,
     PRIMARY KEY (`BillOfMaterial`, `BillOfMaterialCategory`, `BillOfMaterialVariant`, `BillOfMaterialVersion`, `HeaderChangeDocument`, `BillOfMaterialItemNodeNumber`),
-    CONSTRAINT `SAPBillOfMaterialItemData_fk` FOREIGN KEY (`BillOfMaterial`, `BillOfMaterialCategory`, `BillOfMaterialVariant`, `BillOfMaterialVersion`, `HeaderChangeDocument`, `BillOfMaterialItemNodeNumber`) REFERENCES `sap_bill_of_material_header_data` (`BillOfMaterial`, `BillOfMaterialCategory`, `BillOfMaterialVariant`, `BillOfMaterialVersion`, `EngineeringChangeDocument`)
+    CONSTRAINT `SAPBillOfMaterialItemData_fk` FOREIGN KEY (`BillOfMaterial`, `BillOfMaterialCategory`, `BillOfMaterialVariant`, `BillOfMaterialVersion`, `HeaderChangeDocument`) REFERENCES `sap_bill_of_material_header_data` (`BillOfMaterial`, `BillOfMaterialCategory`, `BillOfMaterialVariant`, `BillOfMaterialVersion`, `EngineeringChangeDocument`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
