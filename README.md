@@ -10,7 +10,8 @@ https://api.sap.com/api/OP_API_BILL_OF_MATERIAL_SRV_0002/overview
 ## sqlの設定ファイル
 sap-bill-of-material-sql には、sqlの設定ファイルとして、sqlの設定ファイルとして以下のsqlファイルが含まれています。  
 
-* sap-bill-of-material-sql-item.sql（SAP 部品表 - 明細）
+* sap-bill-of-material-sql-header-data.sql（SAP 部品表 - ヘッダ）
+* sap-bill-of-material-sql-item-data.sql（SAP 部品表 - 明細）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
